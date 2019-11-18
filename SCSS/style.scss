@@ -1,3 +1,122 @@
+.ba-banner {
+    height: 100vh;
+}
+
+.ba-hero {
+    height: calc(100vh - 85px);
+    background: {
+        image: url(../img/hearo.jpeg);
+        size: cover;
+        color: #000;
+    };
+    padding: 9vh 0 0;
+    color: #fff;
+
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__middle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    &__bottom {
+        text-align: center;
+    }
+
+    &__scroll {
+        display: inline-block;
+        position: absolute;
+        bottom: 200px;
+        height: 67px;
+        width: 45px;
+        background: {
+            image: url(../img/scroll.png);
+            size: contain;
+            repeat: no-repeat;
+        };
+    }
+}
+
+.ba-menu-btn {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    letter-spacing: 0.1em;
+}
+
+.ba-menu-btn__lines {
+    display: inline-block;
+}
+
+.ba-menu-btn__line {
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+}
+
+.ba-menu-btn__line-last {
+    margin: 4px 0 0;
+}
+
+.ba-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.ba-hero__title {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    line-height: 4rem;
+}
+
+.ba-hero__text {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    margin: 0;
+    max-width: 400px;
+}
+
+.ba-hero__text p {
+    margin: 0;
+}
+
 .ba-menu {
     display: flex;
     align-items: center;
@@ -8,3 +127,54 @@
     color: inherit;
     text-decoration: none;
 }
+
+.ba-header {
+    max-height: 82px;
+    height: 100%;
+    margin: 28px 0;
+    -webkit-box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.75);
+}
+
+.ba-header__wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.ba-header .ba-logo {
+    color: #000;
+    padding-top: 10px;
+}
+
+.ba-menu {
+    max-width: 1045px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ba-menu__link {
+    margin-left: 60px;
+}
+
+/* ====================== */
+
+.ba-product {
+    text-align: center;
+
+    &__thumb {
+        padding: 0 1em;
+    }
+    &__img {
+        max-width: 100%;
+    }
+}
+
