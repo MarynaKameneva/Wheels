@@ -431,6 +431,7 @@
     background-color: #1e1e1e;
     color: #ededed;
 
+
     &-header {
         &__title {
             @extend .ba-section__title;
@@ -441,7 +442,7 @@
     
     &-wrapper {
         max-width: 1150px;
-        margin: 66px auto;
+        margin: 66px 96px;
         display: flex;
         flex-direction: row;
         text-align: left;
