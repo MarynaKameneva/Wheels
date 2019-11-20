@@ -375,17 +375,19 @@
   .ba-footer-col img {
     padding-top: 30px;
     max-width: 100%; }
-  .ba-footer-col__title {
-    font-family: 'Raleway';
-    font-size: 1.125rem;
-    color: #ededed;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.2px; }
-  .ba-footer-col__social {
-    display: flex;
-    flex-direction: row; }
-    .ba-footer-col__social li {
-      padding-right: 8px; }
-    .ba-footer-col__social img {
-      padding: 0; }
+  .ba-footer-col {
+    min-width: 250px; }
+    .ba-footer-col__title {
+      font-family: 'Raleway';
+      font-size: 1.125rem;
+      color: #ededed;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.2px; }
+    .ba-footer-col__social {
+      display: flex;
+      flex-direction: row; }
+      .ba-footer-col__social li {
+        padding-right: 8px; }
+      .ba-footer-col__social img {
+        padding: 0; }
